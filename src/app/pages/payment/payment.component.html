@@ -1,0 +1,62 @@
+<div class="container mt-5 p-3 rounded cart">
+    <div class="row no-gutters">
+        <div class="col-md-8">
+            <div class="payment-info">
+                <div class="d-flex justify-content-between align-items-center"><span>ADDRESS DETAILS</span> 
+                    
+                </div><hr class="line">
+                <span class="type d-block mt-3 mb-1">Full Name</span><input type="text" class="form-control credit-inputs" placeholder="Name">
+                <span class="type d-block mt-3 mb-1">Address Line 1</span><input type="text" class="form-control credit-inputs" placeholder="Address">
+                
+                <div><label class="credit-card-label">Address Line 2</label><input type="text" class="form-control credit-inputs" placeholder="Address"></div>
+                 <div class="row">
+                    <div class="col-md-6"><label class="credit-card-label">City</label><input type="text" class="form-control credit-inputs" placeholder="City"></div>
+                    <div class="col-md-6"><label class="credit-card-label">State</label><input type="text" class="form-control credit-inputs" placeholder="State"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6"><label class="credit-card-label">Country</label><input type="text" class="form-control credit-inputs" placeholder="Country"></div>
+                    <div class="col-md-6"><label class="credit-card-label">PIN Code</label><input type="text" class="form-control credit-inputs" placeholder="PIN"></div>
+                </div>
+                <div><label class="credit-card-label">Email Id</label><input type="text" class="form-control credit-inputs" placeholder="Email"></div>
+                <div><label class="credit-card-label">Phone No</label><input type="text" class="form-control credit-inputs" placeholder="Phone number"></div>
+                <hr class="line">
+
+            </div>
+        </div>
+  
+        
+   
+   
+        <div class="col-md-4" style="padding: 10px; ">
+            <div class="payment-info">
+                <div class="d-flex justify-content-between align-items-center"><span>CARD DETAILS</span>
+                  
+                </div> <hr class="line">
+                <span class="type d-block mt-3 mb-1">Card type</span><label class="radio"> <input type="radio" name="card" value="payment" checked> <span><img width="30" src="https://img.icons8.com/color/48/000000/mastercard.png"/></span> </label>
+
+                  <label class="radio"> <input type="radio" name="card" value="payment"> <span><img width="30" src="https://img.icons8.com/officel/48/000000/visa.png"/></span> </label>
+
+                  <label class="radio"> <input type="radio" name="card" value="payment"> <span><img width="30" src="https://img.icons8.com/ultraviolet/48/000000/amex.png"/></span> </label>
+
+
+                 <label class="radio"> <input type="radio" name="card" value="payment"> <span><img width="30" src="https://img.icons8.com/officel/48/000000/paypal.png"/></span> </label>
+                <div><br><label class="credit-card-label">Name on card</label><input type="text" class="form-control credit-inputs" placeholder="Name"></div>
+                <div><label class="credit-card-label">Card number</label><input type="text" class="form-control credit-inputs" placeholder="0000 0000 0000 0000"></div>
+                <div class="row">
+                    <div class="col-md-6"><label class="credit-card-label">Date</label><input type="text" class="form-control credit-inputs" placeholder="12/24"></div>
+                    <div class="col-md-6"><label class="credit-card-label">CVV</label><input type="text" class="form-control credit-inputs" placeholder="342"></div>
+                </div>
+
+                
+                <hr class="line">
+                <div class="d-flex justify-content-between information"><span>Subtotal</span><span>₹0.00</span></div>
+                <div class="d-flex justify-content-between information"><span>Shipping</span><span>₹0.00</span></div>
+                <div class="d-flex justify-content-between information"><span>Total(Incl. taxes)</span><span>₹0.00</span></div>
+                
+                  <br>  <button (click)="msg()" class="btn btn-dark d-grid gap-2" tabindex="-1" role="button" aria-disabled="true">Checkout</button>
+                  <hr class="line">
+            </div>
+        </div>
+   </div>
+</div>
+<hr class="line">

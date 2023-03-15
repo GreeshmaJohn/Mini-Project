@@ -1,0 +1,111 @@
+.payment-info {
+    background: #eae8e8;
+    padding: 10px;
+    border-radius: 6px;
+    color: #181616;
+    font-weight: bold;
+  }
+  
+  .product-details {
+    padding: 10px;
+  }
+  
+  body {
+    background: #bbaeae;
+  }
+  
+  .cart {
+    background: #fff;
+    margin-top: 50%;
+  }
+  
+  .p-about {
+    font-size: 12px;
+  }
+  
+  .table-shadow {
+    -webkit-box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.42);
+    box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.42);
+  }
+  
+  .type {
+    font-weight: 400;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  label.radio {
+    cursor: pointer;
+  }
+  
+  label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  label.radio span {
+    padding: 1px 12px;
+    border: 2px solid #ada9a9;
+    display: inline-block;
+    color: #c3bfc4;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 300;
+  }
+  
+  label.radio input:checked + span {
+    border-color: #360bd3;
+    background-color: blue;
+    color: #fff;
+  }
+  
+  .credit-inputs {
+    background: rgb(254, 254, 255);
+    color: #fff !important;
+    border-color: rgb(173, 173, 175);
+  }
+  
+  .credit-inputs::placeholder {
+    color: #0e0d0d;
+    font-size: 13px;
+  }
+  
+  .credit-card-label {
+    font-size: 12px;
+    font-weight: 300;
+    font-weight: bold;
+  }
+  
+  .form-control.credit-inputs:focus {
+    background: rgb(122, 122, 128);
+    border: rgb(102,102,221);
+  }
+  
+  .line {
+    border-bottom: 1px solid rgb(102,102,221);
+  }
+  
+  .information span {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .information {
+    margin-bottom: 5px;
+  }
+  
+  .items {
+    -webkit-box-shadow: 5px 5px 4px -1px rgba(0,0,0,0.25);
+    box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.08);
+  }
+  
+  .spec {
+    font-size: 11px;
+  }
+
+
+  
