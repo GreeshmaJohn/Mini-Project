@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "laptopstore-326ba": {
+      "hosting": {
+        "LaptopStore": [
+          "laptopstore-326ba"
+        ]
+      }
+    },
+    "laaap-28fbb": {
+      "hosting": {
+        "LaptopStore": [
+          "laaap-28fbb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "laaap-28fbb"
+  }
+}
