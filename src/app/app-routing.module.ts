@@ -2,13 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './pages/about/about.component';
 import { AcerComponent } from './pages/acer/acer.component';
+import { AddressComponent } from './pages/address/address.component';
 import { AsusComponent } from './pages/asus/asus.component';
-import { CartComponent } from './pages/cart/cart.component';
 import { CategoryComponent } from './pages/category/category.component';
 import { Category1Component } from './pages/category1/category1.component';
 import { Category2Component } from './pages/category2/category2.component';
 import { Category3Component } from './pages/category3/category3.component';
 import { Category4Component } from './pages/category4/category4.component';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { DellComponent } from './pages/dell/dell.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -62,10 +63,13 @@ const routes: Routes = [
   }
   ,
   {
-    path:'cart',component:CartComponent
-  } ,
-  {
     path:'payment',component:PaymentComponent
+  },
+  {
+    path:'checkout',component:CheckoutComponent
+  },
+  {
+    path:'address',component:AddressComponent
   }
 ];
 

@@ -20,12 +20,13 @@ import { Category1Component } from './pages/category1/category1.component';
 import { Category2Component } from './pages/category2/category2.component';
 import { Category3Component } from './pages/category3/category3.component';
 import { Category4Component } from './pages/category4/category4.component';
-import { CartComponent } from './pages/cart/cart.component';
 import { PaymentComponent } from './pages/payment/payment.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { AddressComponent } from './pages/address/address.component';
 
 @NgModule({
   declarations: [
@@ -47,8 +48,9 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
     Category2Component,
     Category3Component,
     Category4Component,
-    CartComponent,
-    PaymentComponent
+    PaymentComponent,
+    CheckoutComponent,
+    AddressComponent
   ],
   imports: [
     BrowserModule,

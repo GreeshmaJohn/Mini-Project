@@ -24,6 +24,26 @@ export class ContactComponent {
   }
 
   contact(){
+    if(this.name == ''){
+      alert('please enter Name')
+      return;
+    }
+    if(this.email == ''){
+      alert('please enter Email')
+      return;
+    }
+    if(this.mobile == ''){
+      alert('please enter Mobile No')
+      return;
+    }
+    if(this.msg == ''){
+      alert('please enter Message')
+      return;
+    }
+    if(this.opt == ''){
+      alert('please enter an Option')
+      return;
+    }
     let info={
       name:this.name,
       email:this.email,

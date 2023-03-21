@@ -59,13 +59,13 @@
 		<div class="col-md-6">
 		    <div class="card">
 		        <div class="card-body">
-		             <form>
+		             <form >
                         <div class="form-row">
                             <div class="form-group col-md-6">
                               <input id="Full Name" [(ngModel)]="name" name="Full Name" placeholder="Full Name" class="form-control" type="text">
                             </div><br>
                             <div class="form-group col-md-6">
-                              <input type="email" [(ngModel)]="email" class="form-control" id="inputEmail4" placeholder="Email">
+                              <input type="email" [(ngModel)]="email" name="email" class="form-control" id="inputEmail4" placeholder="Email">
                             </div><br>
                           </div>
                         <div class="form-row">
@@ -74,10 +74,9 @@
                             </div><br>
                             <div class="form-group col-md-6">
                                       
-                                      <select id="inputState" class="form-control" [(ngModel)]="opt">
+                                      <select id="inputState" class="form-control" name="select" [(ngModel)]="opt">
                                         <option selected>Choose ...</option>
                                         <option> New Buyer</option>
-                                       
                                         <option> Complaint</option>
                                         <option> Feedback</option>
                                       </select>
@@ -88,7 +87,7 @@
                         </div>
                         <br>
                         <div class="form-row">
-                            <button type="button" class="btn btn-danger" (click)="contact()">Submit</button>
+                            <button type="submit" class="btn btn-danger" (click)="contact()">Submit</button>
                         </div>
                     </form>
 		        </div>
