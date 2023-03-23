@@ -15,7 +15,7 @@ export class ViewService {
       alert("SignUp Successfully")
       this.router.navigate(['/'])
      }).catch(err =>{
-      alert("Something went Wrong")
+      alert("Please enter a valid input")
      })
   }
 
@@ -26,7 +26,7 @@ export class ViewService {
       // alert("Login Successfully")
       this.router.navigate(['/'])
      }).catch(err =>{
-      alert("Something went Wrong")
+      alert("Please enter a valid input")
      })
   }
    //contact method()
